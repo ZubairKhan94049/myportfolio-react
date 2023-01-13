@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/myportfolio-react/static/css/main.a024daff.css",
+    "main.js": "/myportfolio-react/static/js/main.53179816.js",
+    "static/js/787.5acaf970.chunk.js": "/myportfolio-react/static/js/787.5acaf970.chunk.js",
+    "static/media/MyImage.jpg": "/myportfolio-react/static/media/MyImage.af696bf568ed4ce94e14.jpg",
+    "static/media/Zubair Khan Resume.pdf": "/myportfolio-react/static/media/Zubair Khan Resume.57cbfaa52c91b94906ac.pdf",
+    "index.html": "/myportfolio-react/index.html",
+    "main.a024daff.css.map": "/myportfolio-react/static/css/main.a024daff.css.map",
+    "main.53179816.js.map": "/myportfolio-react/static/js/main.53179816.js.map",
+    "787.5acaf970.chunk.js.map": "/myportfolio-react/static/js/787.5acaf970.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a024daff.css",
+    "static/js/main.53179816.js"
+  ]
+}
