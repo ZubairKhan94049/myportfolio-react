@@ -1,3 +1,7 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -32,7 +36,172 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* variables css */
+/* :root{
+  --header-height: 3rem;
+} */
+
+/* colors */
+/* colormode HSL(hue,saturation,lightness) */
+/* --hue: 0;
+--sat: 0%; */
+
+
+/* font nad typography */
+/* --body-font: "Poppins",sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(1, 1, 42);
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button, input, textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+
+h1, h2, h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* reusable css classes */
+.section {
+  padding: 6rem 0 2rem;
+  ;
+}
+
+.section_title {
+  font-weight: bold;
+}
+
+.section_subtitle {
+  display: block;
+  margin-bottom: 4rem;
+  font-size: 13px;
+}
+
+.section_title, .section_subtitle {
+  text-align: center;
+}
+
+/* layout */
+.container {
+  max-width: 969px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 1rem;
+  font-size: 15px;
+}
+
+.button:hover {
+  background-color: rgb(38, 36, 36);
+}
+
+.button_icon {
+  margin-left: 4px;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* media queries */
+@media screen and (max-width:992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+
+  }
+
+  .button {
+    padding: 1rem 1.7rem;
+  }
+
+  .button_icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  body {
+    margin: 0 0 10px;
+  }
+
+  .section {
+    padding: 2rem 0 4rem;
+  }
+
+  .section_subtitle {
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media screen and (max-width:576px) {}
+
+@media screen and (max-width:350px) {
+
+  :root {
+    --big-font-size: 2.25rem;
+  }
+
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+    /* margin-left: 50px;
+    margin-right: 50px; */
   }
 }
